@@ -1,0 +1,98 @@
+/* Basic Grey */
+
+.basic-grey {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border: 1px solid #E4E4E4;
+}
+
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;
+    color: #888;
+}
+
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+
+.basic-grey label {
+    display: block;
+    margin: 0 0 18px 0;
+}
+
+.basic-grey label span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 14px;
+    color: #888;
+}
+
+.basic-grey input[type="date"], .basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 0;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height: 15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+.basic-grey .button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #d4d4d4;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+
+.basic-grey .button.button-reset {
+    text-shadow: 1px 1px 1px #444444;
+    background: #C8C8C8;
+}
+
+.basic-grey .button.button-reset:hover {
+    background: #A8A8A8
+}
+
+.basic-grey .error {
+    margin-right: 6px;
+    font-size: 10px;
+    margin-left: 116px;
+    color: #9E3F3F;
+}
+
+.basic-grey .buttons {
+    text-align: center;
+}
+
+.basic-grey .buttons button {
+    margin: 0 5px 0 5px;
+}
